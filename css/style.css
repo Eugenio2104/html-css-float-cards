@@ -11,42 +11,49 @@
 }
 
 body{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
+  font-family: 'Fredoka One', cursive;
+}
+
+body, span{
+  text-align: center;
 }
 
 h1{
   text-align: center;
   padding: 2rem;
   padding-bottom: 3rem;
+  color: #e53170;
 }
 
 h3{
   text-transform: uppercase; 
-}
-
-
-body, span{
-  text-align: center;
+  margin-top: 10px;
 }
 
 p{
- padding-bottom: 2rem;
+ padding: 6px 0;
 }
 
 .box{
   background-color: #0f0e17 ;
   width: 300px;
   height: 100px;
-  margin: 5px;
+  margin: 10px;
   float: left;
   color: white;
   text-align: left;
 }
 
-
 img {
   float: left;
   width: 100px;
   height: 100px;
+  margin-right: 10px;
+}
+
+a{
+  font-size: 12px;
+  color: #59b8d7;
 }
